@@ -1,0 +1,10 @@
+.react-minimal-ui-button{
+    border : 1px solid blue;
+    padding:5px;
+    width:100px;
+    /*display: inline-block;*/
+}
+
+.react-minimal-ui-button .primary{
+
+}
