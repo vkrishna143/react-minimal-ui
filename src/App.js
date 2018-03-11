@@ -17,16 +17,13 @@ class App extends Component {
         </p>
           <Button>Submit</Button>
           <Button type={'primary'}>Primary</Button>
-          <Button type={'warning'}>Warning</Button>
-          <Button type={'danger'}>Danger</Button>
+          <Button type={'primary warning'}>Warning</Button>
+          <Button type={'primary danger'}>Danger</Button>
           <br/>
           <Button>Submit</Button>
-          <Button type={'primary'}>Primary</Button>
-          <Button type={'warning'}>Warning</Button>
-          <Button type={'danger'}>Danger</Button>
-
-
-
+          <Button type={'secondary'}>Primary</Button>
+          <Button type={'secondary warning'}>Warning</Button>
+          <Button type={'secondary danger'}>Danger</Button>
       </div>
     );
   }

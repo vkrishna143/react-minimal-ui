@@ -1,10 +1,14 @@
 .react-minimal-ui-button{
-    border : 1px solid blue;
-    padding:5px;
+    padding:8px;
     width:100px;
-    /*display: inline-block;*/
+    margin:5px;
 }
 
-.react-minimal-ui-button .primary{
+.react-minimal-ui-button.primary{
+    color: white;
+    background: #3b5998;
+}
 
+.react-minimal-ui-button.secondary{
+    border : 1px solid #3b5998;
 }
