@@ -1,0 +1,7 @@
+.react-minimal-ui-card{
+    border:1px solid blue;
+    display:flex;
+    width:350px;
+    height:450px;
+    box-shadow : 3px 3px 5px 0px #888888;
+}

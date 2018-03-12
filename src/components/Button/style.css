@@ -136,3 +136,27 @@
     color: #c71818;
     background: #c7181850;
 }
+
+
+
+.react-minimal-ui-button.fab{
+    width:50px;
+    height:50px;
+    border-radius: 500px;
+    background: #1463b9;
+    padding: 5px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color:white;
+    box-shadow: 2px 3px 8px 1px #888888;
+}
+
+.react-minimal-ui-button.fab:hover{
+    background: #0A56AB;
+}
+
+.react-minimal-ui-button.fab:active{
+    background: #09498e;
+    box-shadow: 1px 2px 8px 1px #888888;
+}
