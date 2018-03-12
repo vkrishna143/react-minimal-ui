@@ -15,13 +15,15 @@ class App extends Component {
         <p className="App-intro">
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
-          <Button>Submit</Button>
+          <Button>Default</Button>
           <Button type={'primary'}>Primary</Button>
+          <Button type={'primary success'}>Success</Button>
           <Button type={'primary warning'}>Warning</Button>
           <Button type={'primary danger'}>Danger</Button>
           <br/>
-          <Button>Submit</Button>
-          <Button type={'secondary'}>Primary</Button>
+
+          <Button type={'secondary'}>Secondary</Button>
+          <Button type={'secondary success'}>Secondary Success</Button>
           <Button type={'secondary warning'}>Warning</Button>
           <Button type={'secondary danger'}>Danger</Button>
       </div>

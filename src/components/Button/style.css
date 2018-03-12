@@ -1,14 +1,138 @@
 .react-minimal-ui-button{
-    padding:8px;
-    width:100px;
+    padding:10px 15px;
+    width:auto;
     margin:5px;
+    cursor: pointer;
+    display:inline-block;
+
+    -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 .react-minimal-ui-button.primary{
     color: white;
-    background: #3b5998;
+    background: #1463b9;
 }
 
+.react-minimal-ui-button.primary:hover{
+    background: #0A56AB;
+}
+
+.react-minimal-ui-button.primary:active{
+    background: #09498e;
+}
+
+.react-minimal-ui-button.primary.success{
+    background: #267d26;
+}
+
+.react-minimal-ui-button.primary.success:hover{
+    background: #256d25;
+}
+
+.react-minimal-ui-button.primary.success:active{
+    background: #246124;
+}
+
+
+.react-minimal-ui-button.primary.warning{
+    background: #d28c00;
+}
+
+.react-minimal-ui-button.primary.warning:hover{
+    background: #bb7f01;
+}
+
+.react-minimal-ui-button.primary.warning:active{
+    background: #a46e00;
+}
+
+
+.react-minimal-ui-button.primary.danger{
+    background: #c71818;
+}
+
+.react-minimal-ui-button.primary.danger:hover{
+    background: #af1515;
+}
+
+.react-minimal-ui-button.primary.danger:active{
+    background: #8c1111;
+}
+
+
+
+
 .react-minimal-ui-button.secondary{
-    border : 1px solid #3b5998;
+    border : 1px solid #0c66c7;
+    color: #0c66c7;
+}
+
+.react-minimal-ui-button.secondary:hover{
+    border : 1px solid #0A56AB;
+    color: #0A56AB;
+    background: #0A56AB40;
+}
+
+.react-minimal-ui-button.secondary:active{
+    border : 1px solid #09498e;
+    color: #09498e;
+    background: #09498e50;
+}
+
+
+.react-minimal-ui-button.secondary.success{
+    border : 1px solid #267d26;
+    color: #267d26;
+}
+
+.react-minimal-ui-button.secondary.success:hover{
+    border : 1px solid #267d26;
+    color: #267d26;
+    background: #267d2640;
+}
+
+.react-minimal-ui-button.secondary.success:active{
+    border : 1px solid #267d26;
+    color: #267d26;
+    background: #267d2650;
+}
+
+
+.react-minimal-ui-button.secondary.warning{
+    border : 1px solid #d28c00;
+    color: #d28c00;
+}
+
+.react-minimal-ui-button.secondary.warning:hover{
+    border : 1px solid #d28c00;
+    color: #d28c00;
+    background: #d28c0040;
+}
+
+.react-minimal-ui-button.secondary.warning:active{
+    border : 1px solid #d28c00;
+    color: #d28c00;
+    background: #d28c0050;
+}
+
+
+.react-minimal-ui-button.secondary.danger{
+    border : 1px solid #c71818;
+    color: #c71818;
+}
+
+.react-minimal-ui-button.secondary.danger:hover{
+    border : 1px solid #c71818;
+    color: #c71818;
+    background: #c7181840;
+}
+
+.react-minimal-ui-button.secondary.danger:active{
+    border : 1px solid #c71818;
+    color: #c71818;
+    background: #c7181850;
 }
