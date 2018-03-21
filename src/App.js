@@ -4,6 +4,8 @@ import './App.css';
 import FontAwesomeIcon from '@fortawesome/react-fontawesome';
 import { faCoffee } from '@fortawesome/fontawesome-free-solid';
 
+import cardImage from './images/sample.png';
+
 
 import Button from './components/Button/index';
 import Card from "./components/Card";
@@ -41,6 +43,12 @@ class App extends Component {
 
 
           <br/>
+          <Card
+              image={cardImage}
+              title={"Title"}
+              subTitle={"Sub Title"}
+              content={"This is a sample content lorem ipsum types but not exactly lorem ipsum people also call this lipsum popularly"}
+          />
           <Card/>
       </div>
     );
