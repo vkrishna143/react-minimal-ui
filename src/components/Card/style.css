@@ -1,15 +1,70 @@
 .react-minimal-ui-card{
-    border:1px solid blue;
+    /*border:1px solid blue;*/
     display:flex;
     width:350px;
-    height:400px;
-    box-shadow : 4px 4px 10px 0px #888888;
+    /*height:400px;*/
+    box-shadow : 0px 0px 5px 0px #888888;
     margin: 15px;
     display: flex;
     flex-direction: column;
+    border-radius: 4px;
+    overflow:hidden;
 }
+
+.react-minimal-ui-card .cardBody{
+    display:flex;
+    padding: 20px 16px 20px 16px;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+.react-minimal-ui-card .cardTitle, .react-minimal-ui-card .cardSubTitle{
+    margin : 0px;
+}
+
+.react-minimal-ui-card .cardTitle{
+    color:#484848;
+}
+
+.react-minimal-ui-card .cardSubTitle{
+    color:#989292;
+    font-size: 0.95em;
+}
+
+.react-minimal-ui-card .cardContent{
+    color:#989292;
+    font-size: 0.95em;
+    text-align: left;
+    margin: 10px 0px 14px 0px;
+}
+
 
 .react-minimal-ui-card img{
     width:100%;
-    height:60%;
+    /*height:60%;*/
+
+}
+
+.react-minimal-ui-card .cardActions{
+    width:100%;
+}
+
+.react-minimal-ui-card .cardAction{
+    display: inline-block;
+    padding:10px 4px;
+    font-size: 0.95em;
+    color: #0A56AB;
+    text-align: left;
+    cursor: pointer;
+    user-select: none;
+    margin-right: 8px;
+}
+
+.react-minimal-ui-card .cardAction:hover{
+    background: #c3c3c3;
+}
+
+.react-minimal-ui-card .cardAction:active{
+    background: #797979;
 }
