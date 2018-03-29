@@ -46,16 +46,48 @@ class App extends Component {
 
 
           <br/>
-          <Card
-              image={cardImage}
-              title={"Title"}
-              subTitle={"Sub Title"}
-              content={"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sed tellus arcu. Fusce quis iaculis libero, eget auctor magna. Aenean sit amet neque nulla. Donec sed vestibulum lectus, vitae varius orci. Curabitur bibendum tellus dui, sed mollis libero lacinia non. Pellentesque condimentum at nisi quis iaculis. Pellentesque sodales suscipit risus ac condimentum. Maecenas quis nunc velit. Duis quis varius ante, non condimentum mi. Pellentesque faucibus placerat blandit."}
-              cardActions={{'primary':'Action 1' , 'secondary':'Action 2' }}
-              onPrimaryClick={this.onButtonClick}
-              onSecondaryClick={this.onButtonClick}
-          />
-          <Card/>
+          <div className={'cardsContainer'}>
+
+              <Card
+                  image={cardImage}
+                  title={"Title"}
+                  subTitle={"Sub Title"}
+                  content={"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sed tellus arcu. Fusce quis iaculis libero, eget auctor magna. Aenean sit amet neque nulla. Donec sed vestibulum lectus, vitae varius orci. Curabitur bibendum tellus dui, sed mollis libero lacinia non. Pellentesque condimentum at nisi quis iaculis. Pellentesque sodales suscipit risus ac condimentum. Maecenas quis nunc velit. Duis quis varius ante, non condimentum mi. Pellentesque faucibus placerat blandit."}
+                  cardActions={{'primary':'Action 1' , 'secondary':'Action 2' }}
+                  onPrimaryClick={this.onButtonClick}
+                  onSecondaryClick={this.onButtonClick}
+              />
+
+              <Card
+                  image={cardImage}
+                  title={"Title"}
+                  subTitle={"Sub Title"}
+                  // content={"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sed tellus arcu. Fusce quis iaculis libero, eget auctor magna. Aenean sit amet neque nulla. Donec sed vestibulum lectus, vitae varius orci. Curabitur bibendum tellus dui, sed mollis libero lacinia non. Pellentesque condimentum at nisi quis iaculis. Pellentesque sodales suscipit risus ac condimentum. Maecenas quis nunc velit. Duis quis varius ante, non condimentum mi. Pellentesque faucibus placerat blandit."}
+                  cardActions={{'primary':'Action 1' , 'secondary':'Action 2' }}
+                  onPrimaryClick={this.onButtonClick}
+                  onSecondaryClick={this.onButtonClick}
+              />
+
+              <Card
+                  // image={cardImage}
+                  title={"Title"}
+                  subTitle={"Sub Title"}
+                  content={"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sed tellus arcu. Fusce quis iaculis libero, eget auctor magna. Aenean sit amet neque nulla. Donec sed vestibulum lectus, vitae varius orci. Curabitur bibendum tellus dui, sed mollis libero lacinia non. Pellentesque condimentum at nisi quis iaculis. Pellentesque sodales suscipit risus ac condimentum. Maecenas quis nunc velit. Duis quis varius ante, non condimentum mi. Pellentesque faucibus placerat blandit."}
+                  cardActions={{'primary':'Action 1' , 'secondary':'Action 2' }}
+                  onPrimaryClick={this.onButtonClick}
+                  onSecondaryClick={this.onButtonClick}
+              />
+              <Card
+                  image={cardImage}
+                  // title={"Title"}
+                  // subTitle={"Sub Title"}
+                  // content={"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sed tellus arcu. Fusce quis iaculis libero, eget auctor magna. Aenean sit amet neque nulla. Donec sed vestibulum lectus, vitae varius orci. Curabitur bibendum tellus dui, sed mollis libero lacinia non. Pellentesque condimentum at nisi quis iaculis. Pellentesque sodales suscipit risus ac condimentum. Maecenas quis nunc velit. Duis quis varius ante, non condimentum mi. Pellentesque faucibus placerat blandit."}
+                  // cardActions={{'primary':'Action 1' , 'secondary':'Action 2' }}
+                  onPrimaryClick={this.onButtonClick}
+                  onSecondaryClick={this.onButtonClick}
+              />
+
+          </div>
       </div>
     );
   }

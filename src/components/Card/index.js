@@ -7,7 +7,8 @@ class Card extends React.PureComponent{
         className={'react-minimal-ui-card'}
         >
             { this.props.image ? <img src={this.props.image}></img> : null }
-            <div className={"cardBody"}>
+            { this.props.title != null || this.props.subTitle != null || this.props.content != null || this.props.cardActions != null ?
+                <div className={"cardBody"}>
                 { this.props.title ? <h2 className={'cardTitle'}> {this.props.title} </h2> : null }
                 { this.props.subTitle ? <h4 className={'cardSubTitle'}> {this.props.subTitle} </h4> : null }
                 { this.props.content ? <p className={'cardContent'}> {this.props.content} </p> : null }
@@ -29,7 +30,9 @@ class Card extends React.PureComponent{
                 :
                     null
                 }
-            </div>
+            </div> :
+            null
+            }
 
         </div>;
     }
