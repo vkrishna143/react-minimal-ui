@@ -16,12 +16,12 @@ class Card extends React.PureComponent{
                 { this.props.cardActions != null && (this.props.cardActions.primary || this.props.cardActions.secondary)  ?
                     <div className={"cardActions"}>
                         { this.props.cardActions.primary ?
-                            <div className={'cardAction'}>{this.props.cardActions.primary}</div>
+                            <div className={'cardAction'} onClick={(e)=>this.props.onPrimaryClick(e,'primary')} >{this.props.cardActions.primary}</div>
                             :
                             null
                         }
                         { this.props.cardActions.secondary ?
-                            <div className={'cardAction'}>{this.props.cardActions.secondary}</div>
+                            <div className={'cardAction'} onClick={(e)=>this.props.onSecondaryClick(e,'secondary')} >{this.props.cardActions.secondary}</div>
                             :
                             null
                         }
