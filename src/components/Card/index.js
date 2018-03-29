@@ -4,7 +4,7 @@ import './style.css'
 class Card extends React.PureComponent{
     render(){
         return <div
-        className={'react-minimal-ui-card'}
+        className={this.props.className ? 'react-minimal-ui-card '+this.props.className : 'react-minimal-ui-card' }
         >
             { this.props.image ? <img src={this.props.image}></img> : null }
             { this.props.title != null || this.props.subTitle != null || this.props.content != null || this.props.cardActions != null ?

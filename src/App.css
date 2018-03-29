@@ -24,10 +24,14 @@
 
 .cardsContainer{
   display:flex;
-  width:90%;
+  width:100%;
   align-items: center;
   justify-content: space-around;
   flex-wrap: wrap;
+}
+
+.myBigCard.react-minimal-ui-card{
+  width:90%;
 }
 
 @keyframes App-logo-spin {
